@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>El Arte: Creación, Interpretación y Virtuosismo</title>
+    <style>
+      /* Estilo para el modelo de caja */
+      * {
+        box-sizing: border-box; /* Incluir el borde y el padding en el ancho y alto del elemento */
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      section {
+        margin: 20px;
+        padding: 15px;
+        border: 2px solid #333;
+      }
+
+      aside {
+        background-color: #f4f4f4;
+        padding: 10px;
+        margin: 20px;
+        float: right;
+        width: 30%;
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        clear: both;
+        margin-top: 20px;
+      }
+
+      /* Posicionamiento */
+      nav {
+        background-color: #444;
+        padding: 10px;
+        color: white;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      /* Modelo de caja aplicado a un menú simple */
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        margin: 0 15px;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 5px 10px;
+        border: 1px solid white;
+      }
+
+      nav ul li a:hover {
+        background-color: #555;
+      }
+
+      /* Modelo de caja aplicado a la tabla */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+      }
+
+      th, td {
+        padding: 10px;
+        border: 1px solid #333;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>El Arte: Creación, Interpretación y Virtuosismo</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#tema1">¿Qué es el arte?</a></li>
+        <li><a href="#tema2">Distinción entre arte y virtuosismo</a></li>
+        <li><a href="#tema3">Relación entre arte y belleza</a></li>
+        <li><a href="#tema4">Coherencia en el arte</a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <h2>Temas del sitio</h2>
+      <ul>
+        <li id="tema1">¿Qué es el arte?</li>
+        <li id="tema2">Distinción entre arte y virtuosismo</li>
+        <li id="tema3">Relación entre el arte y la belleza</li>
+        <li id="tema4">El papel de la coherencia en el arte</li>
+      </ul>
+    </section>
+
+    <aside>
+      <img src="tu-imagen.jpg" alt="Autor del sitio">
+    </aside>
+
+    <section>
+      <h2>Tabla de comparación</h2>
+      <table>
+        <tr>
+          <th>Concepto</th>
+          <th>Descripción</th>
+        </tr>
+        <tr>
+          <td>Arte</td>
+          <td>Toda creación que contiene una expresión sentimental.</td>
+        </tr>
+        <tr>
+          <td>Virtuosismo</td>
+          <td>Habilidad técnica excepcional en la ejecución.</td>
+        </tr>
+      </table>
+    </section>
+
+    <footer>
+      <p>Autor: Santiago Vélez Padierna</p>
+      <p>Contacto: santiagovelezpadierna@gmail.com</p>
+      <p>Institución: Skolmi</p>
+    </footer>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Arte: Creación, Interpretación y Virtuosismo</title>
+    <!-- Enlace a Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GL8cnheMO36P6DIIITXZbEzI/Ec0XqMsMT7OrxN7ywMQt1QxApV5Pp4HBcnS8Fx/"
+      crossorigin="anonymous"
+    >
+    <link rel="stylesheet" href="styles.css"> <!-- Tu CSS externo -->
+  </head>
+  <body>
+    <!-- Menú de navegación usando Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Arte y Virtuosismo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">¿Qué es el arte?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Virtuosismo</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="container mt-4">
+      <h1 class="text-center">El Arte: Creación, Interpretación y Virtuosismo</h1>
+      <p class="lead">Este sitio web explora la compleja relación entre arte, virtuosismo, y la interpretación...</p>
+      
+      <!-- Tabla con estilo Bootstrap -->
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Tema</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>¿Qué es el arte?</td>
+            <td>Explora la definición y los significados del arte a lo largo de la historia.</td>
+          </tr>
+          <tr>
+            <td>Virtuosismo</td>
+            <td>Discusión sobre la habilidad técnica versus la creación artística.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="text-center mt-4">
+      <p>Autor: [Santiago Vélez Padierna]</p>
+      <p>Contacto: [santiagovelezpadierna@gmail.com]</p>
+      <p>Institución: [Skolmi]</p>
+    </footer>
+
+    <!-- Enlace al JavaScript de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-4WPW7UHKPbrI4avuz8zovtY6lN/pn3TZv1pJo6whtQ5auJ98PE6a4LtYk21PsvVQ" crossorigin="anonymous"></script>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
